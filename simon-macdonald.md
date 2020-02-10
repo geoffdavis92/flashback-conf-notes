@@ -1,0 +1,75 @@
+## PWAs, How Did We Get Here?
+### Simon MacDonald
+
+- Sr Software Scientist @ Adobe
+- slides.com/simonmacdonald/pwas
+- @macdonst
+- Very Canadian
+
+- What is a PWA?
+  - Google defn: modern tech to deliver an app-like UX
+  - Turn browser apps into first-class applications
+- Aren't they just web pages?
+  - Yes
+  - PWA is just a marketing term …for collection of technology
+  - How??
+- History of PWAS
+  - Early web
+    - 1989-1990 Sir Tim Berners-Lee working at CERN, invented the WWW/HTML/URI/HTTP
+    - 1991 First use of WWW outside CERN
+    - 1993 All tech developed at CERN given away
+    - 1994 TBL Founded w3c at MIT, HTML 2.0 (`<img>`)
+    - 1995-1996 Java developed at Sun (client side at that time)
+      - Java Applets
+      - "Write once, run everywhere"
+      - Sandboxed
+      - AWT
+    - 1995-1996 Brandan Eich creates JavaScript
+    - 1996 Macromedia creates Flash
+    - 1997 CSS released
+  - Smartphone era
+    - 1999-2006 Smart phones predecessors shipped
+      - W@P /WAP
+      - Wireless application protocol
+      - WML
+      - Had to rewrite website in WML to show up in phone browsers
+    - 2007 iPhone
+    - 2008 iPhone 3G, App Store
+    - 2009 Phonegap
+      - Framework
+      - Allows building apps using HTML/CSS/JS
+      - Donated to Apache Foundation, became Apache Cordova
+      - Ionic, IntelSDK built off of Phonegap
+      - "PhoneGap is a polyfill; the ultimate purpose of PhoneGap is to cease to exist" – Brian LeRoux (Adobe, 2012)
+      - Used w3c specs to create APIs
+    - 2010 RIP Flash
+      - Kept alive for so long by ESPN
+      - Killed by Jobs after saying it was not supported on iOS
+    - 2012 FirefoxOS
+      - HTML/CSS/JS built on top of native
+      - Web APIs
+      - Closer to vision of PhoneGap
+      - Underpowered OS, became defunct
+      - Created the app manifest concept
+    - 2015 ReactNative
+      - Write app using JS
+      - Bridge b/w data, JS layers
+    - 2015 PWAs
+      - Alex, Francis from Google coined concept of PWA
+      - Service Workers, app manifest
+      - Some technical requirements
+- Technical requirements
+  - Secure origin (HTTPS)
+  - Offline Support
+    - Service workers
+    - (Simon knows about push notifications)
+  - Web app manifest
+  - PWA installation
+  - Browser APIs (What Web Can Do Today)
+- Future of PWAs? Simon's Predictions
+  - Hit Refresh by Satya Nadella
+  - Safe predictions
+    - "Computers will get faster"
+    - Memory size will increase
+    - Dev tools will increase
+  - Always bet on the web
