@@ -1,0 +1,76 @@
+## Web Accessibility: Past, Present, and Future
+### Helena McCabe 
+
+- Sr Frontend Dev @ Lullabot
+- Specializes in a11y
+- Lullabot: digital agency for Drupal
+
+- What is web a11y?
+  - Wheelchair ramp for the digital world
+- Users who benefit
+  - More than just those with impairments
+  - Motor, cognitive, seizure disorders, etc
+  - Everybody else!
+- Edge case myth
+  - Disabled users are an "edge case"
+  - More disabled users in America than there are in NY state
+  - More disabled users in America than are in Australia
+- History of a11y
+  - 1995 Dr. Cynthia Waddell
+  - Inventor of modern a11y
+  - Published first set of standards for a11y (precursor to a11y)
+- First A11y standards
+  - Initial draft 1995
+  - Relatively small
+  - Could fit on 1 slide
+- WCAG 1.0 Published in 1999 by w3c
+- WCAG 2.0
+  - POUR
+    - Perceivable 
+      - Users should be able to perceive content
+    - Operable
+      - Able to navigate/use website
+    - Understandable
+      - Content should be clear/concise
+      - Content digestable at users' own pace
+    - Robust
+      - Content should standup to old, new technology
+  - Pertained to documents, apps, not just websites
+- A11y Today
+  - WCAG 2.1 (2018)
+  - Doesn't deprecate
+  - Adds specs to keep up with new tech 
+  - Mobile a11y
+  - Low vision (different than blind users)
+  - Cognitive & learning disabilities
+- Highlights of new standards
+  - 1.3 Adaptable
+    - content can be accessed the best way users want
+    - Different (or only certain) orientations
+    - Autofilling input fields
+  - 1.4 Distinguishable 
+    - Easier for users to see/hear content
+    - Text contrast
+  - 2.5 Input Modalities
+    - Pointer gestures
+    - Motion actuations
+- Lawsuits
+  - Bad for companies, great for users
+  - Public sector have to be §508 AA compliant
+  - ADA has been (historically) gray area for a11y
+    - Domino's
+    - Target
+    - Netflix
+    - Winn Dixie
+    - FedEx
+- Not just because you _have_ to, it's because you _want_ to
+- Web a11y tomorrow
+  - Microsoft
+    - Xbox One adaptive controller
+    - "Co-pilot" functionality
+    - Custimized button mapping
+  - Google
+    - Project Euphonia
+  - You! (me)
+    - Making our own sites/apps/progress more accessible
+    - Adding alt text to posts (twitter, facebook, instagram)
