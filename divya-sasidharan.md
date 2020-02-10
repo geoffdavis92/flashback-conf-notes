@@ -1,0 +1,72 @@
+## 
+### Divya Sasidharan
+
+- @shortdiv
+- Dev Exp Engineer @ Netlify
+
+- Slicing Bread
+  - Pre-slice bread
+  - Convenient
+  - JAMStack emerged from similar idea
+  - "Why can't we pre-slice [static stack]
+- JAMStack
+  - JavaSCript, APIs, and Markup
+  - easy to build
+  - easy to deploy
+- Static sites/assets
+  - Static, but dynamic
+  - (Different kind of static)
+  - Early static sites
+    - Deploy files to server
+    - Architecture changed for building sites/web apps
+  - Increasing complexity nowadays
+  - JAMStack abstracts a lot of the complexity
+  - Stack moves away from servers 
+- What is/is not JAMStack
+  - Pre-rendered site/SPA ✅
+  - Isomorphic SSR SPA ❌
+  - Traditional CMS site ❌
+  - Monolithic fullstack app ❌
+- Why is this a compelling model?
+- Immutable deploys
+  - Build -> generate -> deploy cycle
+  - FTP'ing into server affected state of server, made debugging difficult
+  - Versioning content is difficult
+  - Atomic deploys
+- Build automation
+  - Modern SSGs
+  - Build commands, good dev experience
+  - No manual configs
+  - Non-technical individuals can trigger builds
+  - Headless CMS
+    - Contentful
+    - Wordpress
+    - Ghost
+- Event triggers
+  - Webhooks
+  - If `<This>` Then `<That>`
+  - Different options
+    - Auth events
+    - Commits
+- Serverless
+  - Most apps today are monolithic (site generated per site visit)
+  - Monolithic infrastructure scaling needs
+  - JAMStack scales needed
+  - Dynamic functionality largley requires backend functionaity
+    - May lose benefits of JAMStack
+  - Frontend de-coupled from the backend
+  - Splitting up services into microservices
+    - auth0, okta
+  - Functions as a Service
+    - Invoke APIs, services as needed
+    - Demo of Netlify Forms
+    - Demo of Netlify Functions
+    - Demo of Netlify Identify
+    - Demo of Netlify Events
+- Road to the JAMStack
+  - Get assets to CDN
+  - Design for immuatble deploys
+  - Automate all the things
+  - Serverless all the things
+- JAMuary
+  - dev.to/t/jamuary
