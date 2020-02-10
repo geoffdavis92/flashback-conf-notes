@@ -1,0 +1,163 @@
+## FOUC, and the death of Progressive Enhancement
+### Kyle Simpson
+
+- YDKJS author
+- @getify
+
+- Call into question long-standing assumptions from the early 
+- Death of ideas
+  - Great for a time, but lead to more evolved ideas
+- The Beginning of the Web
+  - Started as links from one place to another
+  - How people could access information (people-first)
+  - Went from "easy to access" info to "easy to overload users' attention"
+  - Decisions that affect how we use the web (authors' view vs. users' view)
+- Change how we build
+- Early Web
+  - Inlining of HTML, CSS, JS in early days
+  - "Separation of concerns"
+    - "User cares most about content" (HTML)
+    - Cake metaphor
+    - The layers were "optional" (aside from HTML)
+    - 2 strategies emerged from SoC
+  - Graceful degradation
+    - Good features, but if optional features were not available, still get a fxnal website
+    - Escalator metaphor (Mitch Hedberg) - Aaron Gustafson
+    - Should this have been where our efforts aligned?
+  - Progressive Enhancement
+    - Flipped Graceful Degradation
+    - Decide base functionality, then add features as possible
+    - SXSW Talk
+      - hesketh.com/publications/inclusive_web_design_for_the_future
+      - List of hacks to test ways to sniff browsers
+    - "Focus was on the technology (initially)"
+- Web performance optimization
+  - Was once a "cottage hobby", now a full industry
+  - Early "yslow" rules
+- FOUC
+  - Flash Of Unstyled Content
+  - Users hated this
+  - "Problems created by attempting to solve problems"
+  - FOIT/FOUT (same concept, but for fonts) font-display.glitch.me
+  - FUBC (flash of unbehaviored content)
+    - Functionality (JS) not initialized yet
+- Chase site
+  - Do users like spinners?
+  - "JS libraries allow us to add more spinners performantly"
+  - Users are just tolerating what we're building
+- The Great Lie
+  - Technology-layered delivery is "morally" superior
+  - "Where do our technology priorities stand?"
+  - Step back to ask what a user will think in a moment of [downscaled video quality]
+- Responsive Design
+  - Father of responsive design: Ethan Marcotte (@beep)
+  - Another excuse that puts developer priorities above user priorities
+  - "Has anyone ever resized their browser and remarked at the reflow?"
+  - Need to be honest a lot of these principles were mostly for us
+- Divide in the Web Community
+  - css-tricks.com/the-great-divide
+  - Great divide between content/styling folks and functionality folks
+  - Some missing context as to why JS people feel the pain of this divide
+  - "JavaScript is the problem of the web"
+  - Tom Dale "Progressive Enhancement is dead"
+  - "We made these divides because we divided based on technology"
+- Mapping applications example
+  - Google Maps vs. Mapquest
+  - "You can still have a compelling mapping application without JavaScript"
+- Alex Russell (@slightlylate) quote
+  - "You need to demonstrate tech choices do no harm"
+  - Need to evolve ideas back to the user
+- Priority of Constitutencies
+  - "In case of conflict, consider users over authors over implementors over specifiers over theoretical purity…"
+- Adaptation is part of the problem
+  - "Accidental survival"
+  - What we're automating is compensation for our limitations
+- User Agent
+  - Browsers are user agents – middleman
+  - Browsers revisioned as user Advocate
+- Configuration 
+  - Often thought of as a "dirty word"
+  - "Users can't understand all the available details"
+- Product + UI + UX = Imprintable Design
+  - Design where the user imprints themselves into/onto the experience
+  - #ImprintableDesign
+- Progressive Enhacnement
+  - Focused on devs and tech
+  - Design focused primarily on each person
+  - Several blockers
+- blockers for PE
+  - Flawed: designing for consistency
+    - "Has anyone not [completed website task] because the scrollbar wasn't purple?"
+    - Taking browser UI differences and paving over to be consistent
+    - Creating a11y problems
+    - Zeldman quote: Not identical, pixel perfect; content is perceivable
+  - Flawed: if the device can do it, the user wants it
+    - "WebGL rendering 3D bus route on 2G connection with 2% battery" example– need to determine how users can tell us what way they want to see content/use site
+    - webkit.org/blog/8970/how-web-content-can-affect-power-usage
+    - African village power/phone charging
+  - Common thread: _we_ think we know better
+  - Flawed: browser knows best
+    - How much CPU/memorty available? Yes
+    - Power unlimited/free? No
+    - Unlimited data? No
+    - Hands usable? No
+    - Lighting conditions? No
+    - Some things, but vast majority only people know best
+  - Flawed: people always want the most powerful experience
+    - Special apps built to deliver through Opera Mini (low-fi Facebook example)
+- Who's using your site?
+  - How do you _really_ know who your users are? 
+  - Analytics? Deeply flawed
+- Statistics marginalize people
+  - Tailoring experiences to the majority
+  - These people matter
+- New numeronym
+  - e12y
+  - Empowerability
+  - Building a web that empowers people
+  - (on top of a11y)
+- How do we talk about site visitors?
+  - User? visitor just a utility
+  - Customer? visitor just there to provide $
+  - Person: matters far more than just what visitor clicks on in a website
+  - Put people first
+- Can we just ASK the person (what they want)?
+  - Pick your font size
+    - Recommendation by w3C
+  - "Load basic HTML" link from Gmail
+- Need a new term from Progressive Enhancement
+  - Progressive Experience?
+  - Personalized Experience?
+  - People Empathy
+- How to practice People Empathy through Imprintable Design?
+  - People must be given control over their web experiences
+  - Precedent for asking user what they want
+    - Safari Reader mode
+    - Headers availble from server, to media queries
+    - Client hints
+  - User needs to be active participant in site
+- "Currencies" users understand
+  - Speed
+  - Battery level
+  - Cost (of bandwidth)
+  - What users have to spend to have experience on the web
+  - Summarize 3 currencies into 1 setting?
+  - Person and browser work together to decide
+- Fidelity slider
+  - Just a sketch
+  - Slider to decide how to affect currencies
+  - Not technical, people decision
+  - "request-fidelity" header
+  - Send resources based on fidelity preference, servce optimized experience
+  - Send or skip features/components, alter behavior of app
+  - Batch requests
+  - Treat like offline app
+- Browser (user advocate) must veot server over resource responses
+- First steps?
+  - Should we wait on browsers to adopt? No
+  - Build features into apps
+  - Browsers object because they
+- "No one has disproved the benefits of PE or proposed a better technique"
+  - sitepoint article
+- PE is dead, long live people empathy and #imprintabledesign
+- speakerdeck.com/getify
