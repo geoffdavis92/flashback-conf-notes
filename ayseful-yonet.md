@@ -1,5 +1,5 @@
-## 
-### Aysegul Yonet
+## Mixed Reality
+### Aysegül Yönet
 
 - Sr. Azure Cloud Dev Advocate
 - Microsoft
