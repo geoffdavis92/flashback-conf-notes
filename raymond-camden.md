@@ -1,0 +1,101 @@
+## The Dynamic Web, from CGI to Serverless
+### Raymond Camden
+
+@raymondcamden
+GDE
+Lead Dev Evangelist at HERE
+- Slides on GitHub
+
+- Background
+  - O(n) notation
+  - Writing NCSA Mosaic
+  - Became a Webmaster
+- Apache SSI
+  - Server side includes
+  - Directives in HTML
+  - `.shtml` extension
+  - Had to be enabled
+  - Could include partial files, set/echo variables, execute programs(!)
+- CGI Scripts
+  - Common gateway interface (1993)
+  - C, Perl, TCL,
+  - Renders output of CGI scripts
+  - Issues
+    - Browser "input" had to be parsed
+    - Headers plus HTML returned
+    - Security, performance
+- PERL
+  - 1987 by Larry Wall
+  - Free, open source, runs everywhere
+  - Really great at RegExp
+  - CGI Scripts
+    - Scriptarchive.com
+    - hitwebcounter.com
+  - The Linguist and the Programmer
+- App Servers
+  - Companion to web server
+  - Better perf, more power (than CGI)
+  - Database-driven site
+  - Configured alongside web server
+  - ColdFusion (1995)
+  - PHP (1994)
+  - ASP (1996)
+  - Issues
+    - App server and database 24/7 (for site <100 visits/month)
+    - Data changes only a handful of times a year
+    - Breaks often
+- ColdFusion
+  - Practical
+  - Tag-based
+  - Easy to write (and use the result of) SQL
+  - CF SQL query written in markup
+  - Raymond wrote 3k+ blog posts about CF
+- 2006 Web 2.0 Era
+  - Spry framework for AJAX (by Adobe)
+  - The browser is OK!
+    - JS support (JS in general) was decent
+    - HTML5 coming
+    - Evergreen
+- Exploring the Frontend
+  - jQuery
+  - Angular
+  - DevTools
+  - PhoneGap
+  - Browsers can do anything*
+- (Still need a server)
+  - Host files or build files
+  - Need to use APIs without CORS
+  - Use APIs with keys
+  - etc
+- JAMStack
+  - JAM = JS, APIs, Markup
+  - Fancy word for static sites
+  - Dynamic locally, static in production
+  - harpjs (SSG)
+  - Quick start
+    - Install CLI
+    - Start server
+    - Write markup
+    - Edit/repeat
+    - Deploy static output files
+  - Features
+    - Way to use data (JSON)
+    - Template engines for dynamic html (Liquid, Nunjuks)
+    - Spit out SPAs (Gridsome, Next)
+    - Options
+      - (via Staticgen.com)
+- Serverless
+  - Everyone loves the name
+  - Everyone agrees on exactly what it is
+  - DHH tweet "serverless"
+  - RC's personal defn: "any time I don't have to install crap"/"Any time I don't have to monitor crap (kinda)"
+  - FaaS (Function as a Service)
+  - codabreaker.rocks site (managed by RC)
+    - Didn't have to setup Node
+    - Didn't use Express
+    - Runs when it needs to
+- RC's Jamstack
+  - SSG (Eleventy)
+  - HTML/CSS/JS
+  - Deploy to Netlify (or Zeit)
+  - Serverless for parts needing a server
