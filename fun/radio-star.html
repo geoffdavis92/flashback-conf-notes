@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    [type="radio"] {
+      -webkit-appearance: none;
+      appearance: none;
+      border: 2px solid #000;
+      border-radius: 50%;
+      height: 2rem;
+      transition: .2s background-color, .2s border-color, .2s box-shadow;
+      width: 2rem;
+    }
+
+    [type="radio"]:checked {
+      background-color: green;
+      border-color: #fff;
+      box-shadow: 0 0 0 .125rem green;
+    }
+
+    [type="radio"]:checked ~ [type="radio"] {
+      background-color: rosybrown
+    }
+  </style>
+</head>
+<body>
+  <input type="radio" name="star" aria-label="1 star" required>
+  <input type="radio" name="star" aria-label="2 star" required>
+  <input type="radio" name="star" aria-label="3 star" required>
+  <input type="radio" name="star" aria-label="4 star" required>
+  <input type="radio" name="star" aria-label="5 star" required>
+</body>
+</html>

@@ -1,0 +1,55 @@
+## The Good, the Bad, and the Ugly of Serverless Web Apps
+### Burke Holland
+
+- cloud dev advocate @ Microsoft
+
+- urlList
+  - Creates a list of URLs
+  - Add links to list
+  - Title/description
+  - theulrist.com/flasbackconf
+  - stack
+    - Vue, TS (site)
+    - C# (API)
+    - cosmos db (database)
+  - Entirely serverless
+    - @cecilphillip/@burkeholland
+- What does Serverless mean?
+  - Abstract details of implementation
+  - Law of least consumption (only build what you'll use)
+  - Inherent scale built-in (scaling can never be _your_ problem)
+- Serverless fundamentals
+  - Storage (static hosting provider)
+  - FaaS (Azure functions, AWS Lambda, Google Cloud functions)
+    - Mostly marketing
+    - Executes code in the cloud
+- The Good
+  - Cost
+    - Won't charge if no one uses an app
+    - Charge per execution (ex 20¢ per million function executions, 6¢ per gb stored, 8.7¢ per gb in/out)
+  - Speed
+    - Solved by cloud providers
+  - Scale
+    - Testing with artillery CLI
+    - Servers being added/removed as requests come in
+  - Local development experience
+    - Local Azure function debuggable locally
+  - CORS easy to configure
+- The Bad
+  - Auth
+    - Easy for social login (in Azure)
+    - Proprietary logins difficult (in Azure)
+  - Hosting
+    - ???
+  - Metrics
+    - No access to servers
+    - Demo'd Azure monitor (paid monitoring service)
+- Ugly
+  - Proxy
+    - Difficult to do in Serverless
+    - Solution demo'd with Front Door
+    - Able to route requests
+  - DNS
+  - Cold start
+    - First (few) requests spins up services
+    - Stays in memory; spins down after N seconds

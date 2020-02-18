@@ -1,0 +1,65 @@
+## Dev Panel
+
+- Sergio Cruz
+  - Assoc. Director of Digital Dev @ Ramsey Solutions
+- Lee Warrick
+  - meetup organizer
+  - techjr podcast
+- Andrea Griffiths  
+  - Community Support, GitHub
+  - @ALAColombia
+
+- Changes seen in Web Dev recently, over career
+  - LW: Preprocessors, advanced frontend stack
+  - AG: Open source movement
+  - SC: Deploying code advancements
+- Is web dev more difficult than [5 years ago]?
+  - SC: Harder, _and_ easier
+    - Had to know more concepts (provision a server)
+    - Now can just push to GitHub
+    - But, now more steps to optimize/build code
+    - Barrier to entry is lower, especially due to specialization
+    - Also can increase likelihood of imposter syndrome
+  - LW: More fullstack devs/webmasters, now in a second wave of innovation
+    - React, Vue, Angular, etc
+    - More new tools/libraries/etc being developed
+    - Great, but exhausting
+    - Barrier to entry is lower with new tech (CodePen, glitch.me) but a lot of noise to filter
+  - AG: Easier to get started, but more complex problems today
+    - Machine learning
+    - Barrier to entry is lower, more resources
+- How are trends in FinTech different than the rest of tech?
+  - LW: Worked for FinTech consultancy; scares the crap out of me
+    - Lots of antiquated layers
+    - Expensive, difficult to tie new stuff (React, etc) into legacy systems
+  - SC: Work with FinTech companies
+    - Work to protect data as much as possible
+    - Some data becoming available
+    - Bar of bureaucracy at banks will probably lower over time
+  - AG: (respond to GitHub financial programs) We should pay [OSS maintainers]
+    - Crazy to me that companies don't support OSS authors
+    - GitHub Sponsors has a bright future ahead of it
+    - Working for sponsorship levels for corporations
+- Low-code/No-code solutions: thoughts on how to use these tools?
+  - LW: I've used some of this professionally; I hate them
+    - Spent all this time learning to become a [custom] application developer
+    - Have more control over how I build apps/sites
+    - Wix/Squarespace/Webflow can empower non-technical users who want to make their own websites
+  - AG: Agree with LW; sites are important for scaling as a business
+    - If tech is your product, websites should be built in-house
+    - WYSIWYG tools are great for non-tech consumers
+  - SC: Probably agree if talking WYSIWYG
+    - Devs love feeling important
+    - Used MagnoliaCMS (like AEM)
+    - Updating site use to take a full development cycle
+    - Now, devs make new components for this CMS
+    - Eventually, a lot is going to be low/no code
+- What is something you're most excited about new/upcoming tech?
+  - AG: Consumer-driven solutions (cloud computing)
+  - LW: IE dying
+  - SC: AWS ?? streams
+- Q&A
+  - As someone more experienced, how to make it easier for new-comers?
+    - LW: Pair programming, maintaing docs, onboarding process planned out
+    - Janell: Diversity matters, helps juniors feel secure
+    - SC: Don't be a jerk

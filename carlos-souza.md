@@ -1,0 +1,74 @@
+## Fostering Your Local JavaScript Community
+### Carlos Souza
+
+Author @ Puralsight
+@caike
+
+- Belongingness
+  - State or feeling of belonging to a particular group
+  - Abraham Maslow
+  - Local JS community as an example?
+  - Why get involved, how to get involved?
+- Background
+  - From Brazil
+  - Started meeting with Ruby on Rails group
+- Orlando dod
+  - Started Orlando Coding Dojo on Google User Groups
+    - TDD
+    - Pair programming
+    - Different languages
+    - paired with @at_the_x
+- Orlando JS
+  - 50 events
+  - 1,700+ members
+  - (5 events short of a "perfect score")
+  - Co-organizers
+    - @hashtagserg, @bfgenaro
+  - Sponsors
+    - sightplan.com
+    - atlantic.net
+    - pluralsight.com
+- Why?
+  - Professional Development
+    - most efficient way to invest in your career
+    - Meet/network/talk with peers
+  - Motivation
+    - "Best medicine for burnout"
+    - Need to belong
+- How to?
+  - Attend
+    - Be in a community with people that have shared interests
+    - OrlandoDev Slack
+    - Meetup.com, Slack channels
+  - Speak
+    - Establish yourself in your community
+    - "I don't know about X"
+    - No better way to learn about a topic
+    - "you don't need to be an expert in order to teach"
+    - "You just need to be a few steps ahead"
+    - Experts are not always (rarely?) the best to teach
+  - Organize
+    - "Build the meetup that you wish you had"
+    - By the time you're here, you have a good idea of what works/doesn't work
+    - Determine the goal of the meetup you want to start
+    - Trying to build audience, gauge interest
+    - "The Art of Asking" by Amanda Palmer
+  - Support
+    - Venue
+    - Food
+    - Speakers
+    - Resources
+    - $$$
+- What NOT to do
+  - Attend
+    - RSVP yes, but never show up
+  - Speak
+    - NEVER wing live demos
+    - Try recorded screencasets
+    - Things will go wrong
+    - NO ligature fonts
+  - Organize
+    - Lack of topic
+      - "TBA" agenda or no description
+      - Lack of respect
+    - Vague requests for help
